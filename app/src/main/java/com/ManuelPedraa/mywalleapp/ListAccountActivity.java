@@ -23,11 +23,13 @@ public class ListAccountActivity extends AppCompatActivity {
         rvListAccount.setLayoutManager(new LinearLayoutManager(ListAccountActivity.this));
     }
     private void loadFakeData(){
-        Account myAccount1 = new Account("Bancolombia","Cuenta Corriente",10213321.38,"https://i.pinimg.com/originals/b8/cd/c1/b8cdc1ad498fe080bc21bb5a03c24f83.png");
-        Account myAccount2 = new Account("Daviviendo","Cuenta Ahorros",21871278.24,"https://pbs.twimg.com/profile_images/1002552048620134400/qZ1XCo_9_400x400.jpg");
-        Account myAccount3 = new Account("Bogota","Tarjeta Credito",72168213.92,"https://seeklogo.com/images/B/Banco_de_Bogota-logo-609A0072EA-seeklogo.com.png");
-        listAccountRV.add(myAccount1);
-        listAccountRV.add(myAccount2);
-        listAccountRV.add(myAccount3);
+        Account categoria1 = new Account("Restaurante","Aqui se vende bocachico","red","https://cdn-icons-png.flaticon.com/512/3448/3448609.png");
+        Account categoria2 = new Account("Gasolina","Aqui se vende gasolina","green","https://cdn-icons-png.flaticon.com/512/6352/6352741.png");
+        Account categoria3 = new Account("Arriendo","Aqui se vende techo","blue","https://cdn-icons-png.flaticon.com/512/25/25694.png");
+        listAccountRV.add(categoria1);
+        listAccountRV.add(categoria2);
+        listAccountRV.add(categoria3);
+
     }
+
 }

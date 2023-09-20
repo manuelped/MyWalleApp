@@ -2,24 +2,24 @@ package com.ManuelPedraa.mywalleapp;
 
 public class Account {
 
-    public Account(String name, String typeAccount, Double currentValue, String imageUrl) {
+    public Account(String name, String descripcion, String color1, String iconoUrl) {
         this.name = name;
-        this.typeAccount = typeAccount;
-        this.currentValue = currentValue;
-        this.imageUrl = imageUrl;
+        this.descripcion = descripcion;
+        this.color1 = color1;
+        this.iconoUrl = iconoUrl;
     }
 
     private String name;
-    private String typeAccount;
-    private Double currentValue;
-    private String imageUrl;
+    private String descripcion;
+    private String color1;
+    private String iconoUrl;
 
-    public String getInageUrl() {
-        return imageUrl;
+    public String geticonoUrl() {
+        return iconoUrl;
     }
 
-    public void setInageUrl(String inageUrl) {
-        this.imageUrl = inageUrl;
+    public void seticonoUrl(String iconoUrl) {
+        this.iconoUrl = iconoUrl;
     }
 
 
@@ -32,19 +32,19 @@ public class Account {
         this.name = name;
     }
 
-    public String getTypeAccount() {
-        return typeAccount;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setTypeAccount(String typeAccount) {
-        this.typeAccount = typeAccount;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public Double getCurrentValue() {
-        return currentValue;
+    public String getColor1() {
+        return color1;
     }
 
-    public void setCurrentValue(Double currentValue) {
-        this.currentValue = currentValue;
+    public void setColor1(String color1) {
+        this.color1 = color1;
     }
 }

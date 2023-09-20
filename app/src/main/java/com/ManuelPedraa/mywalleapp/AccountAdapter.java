@@ -38,20 +38,21 @@ public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView tvName,tvCurrentValue,tvType;
+        private TextView tvName,tvColor1,tvIconUrl;
+        private String tvDescripcion;
         private ImageView ivPrincipal;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvName = itemView.findViewById(R.id.tv_nombre_de_cuenta_mod);
-            tvCurrentValue = itemView.findViewById(R.id.tv_saldomony_mod);
-            tvType = itemView.findViewById(R.id.tv_tipo_cuenta_mod);
+            tvName = itemView.findViewById(R.id.tv_Name);
+            tvDescripcion ="";
+            tvColor1 = itemView.findViewById(R.id.tv_Color1);
         }
 
         public void loadItem(Account myAccount) {
             tvName.setText(myAccount.getName());
-            tvCurrentValue.setText(String.valueOf(myAccount.getCurrentValue()));
-            tvType.setText(myAccount.getTypeAccount());
+            tvDescripcion=(String.valueOf(myAccount.getDescripcion()));
+            tvColor1.setText(myAccount.getColor1());
         }
     }
 }
