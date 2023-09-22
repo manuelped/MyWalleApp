@@ -17,4 +17,10 @@
     <string name="nombre2">Nombre</string>
     <string name="nombre3">Nombre:</string>
     <string name="color">Color:</string>
+    <string name="nombre_coso">Nombre coso</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="colorname">Color</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="crear">Crear</string>
+    <string name="nombre4">Nombre</string>
 </resources>

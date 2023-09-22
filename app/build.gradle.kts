@@ -38,4 +38,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.github.yukuku:ambilwarna:2.0.1'")
+    implementation ("com.github.QuadFlask:colorpicker:0.0.13")
 }
